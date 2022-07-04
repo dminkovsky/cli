@@ -51,7 +51,7 @@ if [ ! $version ]; then
     log "${YELLOW}"
     log "Failed while attempting to install Nhost CLI. Please manually install:"
     log ""
-    log "2. Open your web browser and go to https://github.com/$REPO/releases/latest"
+    log "1. Open your web browser and go to https://github.com/$REPO/releases/latest"
     log "2. Download the CLI from latest release for your platform. Name it 'nhost'."
     log "3. chmod +x ./cli"
     log "4. mv ./cli /usr/local/bin/nhost"
